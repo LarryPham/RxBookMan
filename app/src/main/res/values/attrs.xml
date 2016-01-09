@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BaseTheme">
+        <attr name="actionBarIconColor" format="color"/>
+        <attr name="actionBarInsetStart" format="dimension"/>
+        <attr name="spinnerBarInsetStart" format="dimension"/>
+        <attr name="popupItemBackground" format="reference"/>
+        <attr name="photoItemForeground" format="reference"/>
+        <attr name="photoItemForegroundBorderless" format="reference"/>
+        <attr name="imageItemBackground" format="reference"/>
+    </declare-styleable>
+    
+    <declare-styleable name="ThemeBookMan">
+        <attr name="isFloatingWindow" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="DrawShadowFrameLayout">
+        <attr name="shadowDrawable" format="reference"/>
+        <attr name="shadowVisible" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="OpenTextView">
+        <attr name="fontVariation" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="light" value="1"/>
+            <enum name="book" value="2"/>
+            <enum name="medium" value="3"/>
+            <enum name="semi" value="4"/>
+            <enum name="thin" value="5"/>
+            <enum name="ultra" value="6"/>
+        </attr>
+        <attr name="fixWidowWords" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="ScrimInsetsView">
+        <attr name="InsetForeground" format="color|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension|reference"/>
+        <attr name="border_color" format="color|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="SlidingUpPanelLayout">
+        <attr name="umanoPanelHeight" format="dimension" />
+        <attr name="umanoShadowHeight" format="dimension" />
+        <attr name="umanoParalaxOffset" format="dimension" />
+        <attr name="umanoFadeColor" format="color" />
+        <attr name="umanoFlingVelocity" format="integer" />
+        <attr name="umanoDragView" format="reference" />
+        <attr name="umanoOverlay" format="boolean"/>
+        <attr name="umanoClipPanel" format="boolean"/>
+        <attr name="umanoAnchorPoint" format="float" />
+        <attr name="umanoInitialState" format="enum">
+            <enum name="expanded" value="0" />
+            <enum name="collapsed" value="1" />
+            <enum name="anchored" value="2" />
+            <enum name="hidden" value="3" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="AspectRatioView">
+        <attr name="aspectRatio" format="float"/>
+    </declare-styleable>
+</resources>

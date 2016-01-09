@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">BookMan</string>
+    <string name="menu_bookman_settings">Settings</string>
+    <string name="account_name_sample">Mochi Gome</string>
+    <string name="account_email_sample">larrypham.vn@gmail.com</string>
+    <string name="navdrawer_recent_books">Recent Books</string>
+    <string name="navdrawer_downloads_books">Downloads</string>
+    <string name="navdrawer_favourite_books">Favourites</string>
+    <string name="navdrawer_explore_books">Explores</string>
+    <string name="navdrawer_settings">Settings</string>
+    <string name="navdrawer_description">Press on the drawer toggle button for switching navigation\'s drawer items!</string>
+    <string name="navdrawer_about">About</string>
+    <string name="short_book_image_description">The small cover of ebook</string>
+    <string name="short_book_title_sample">Algorithm Design and Applications</string>
+    <string name="short_book_isbn_sample">ISBN: 9781118335918</string>
+    <string name="short_book_subtitle_sample">Learning how to design program with algorithms</string>
+    <string name="short_book_description_sample"> <b>Description: </b><![CDATA[
+        Introducing a NEW addition to our growing library of computer science titles, Algorithm Design and Applications,
+        by Michael T. Goodrich &amp; Roberto Tamassia! Algorithms is a course required for all computer science majors,
+        with a strong focus on th …]]></string>
+    <string name="menu_bookman_search">Search</string>
+    <string name="menu_view_mode">Switching view\'s mode!</string>
+    <string name="navdrawer_home_books">Home</string>
+</resources>

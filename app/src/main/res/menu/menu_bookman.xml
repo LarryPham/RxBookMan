@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_search"
+        android:orderInCategory="1"
+        android:icon="@drawable/ic_search"
+        android:title="@string/menu_bookman_search"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menu_view_mode"
+        android:icon="@drawable/menu_view_mode"
+        android:checkable="true"
+        android:checked="false"
+        android:orderInCategory="2"
+        android:title="@string/menu_view_mode"
+        app:showAsAction="always"/>
+</menu>

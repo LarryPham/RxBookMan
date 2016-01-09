@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.lucasr.twowayview.widget.TwoWayView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/books_grid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="@dimen/dimen_small_padding"
+    android:paddingEnd="@dimen/dimen_small_padding"
+    app:twowayview_layoutManager="GridLayoutManager"
+    app:twowayview_numColumns="@integer/books_grid_columns"
+    app:twowayview_numRows="@integer/books_grid_rows"/>

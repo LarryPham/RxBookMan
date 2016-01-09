@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_window_background">#ECEEF1</color>
+    <color name="color_transparent">#00000000</color>
+    <color name="color_action_bar_icon_color">#004a43</color>
+    <color name="color_primary">#46A89B</color>
+    <color name="color_primary_dark">#38867C</color>
+    <color name="color_accent">#c8009688</color>
+
+    <color name="text_on_primary">#004a43</color>
+    <color name="subtitle_on_primary">#c2004a43</color>
+
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_navdrawer_selected">@color/color_primary</color>
+    <color name="color_navdrawer_unselected">#353535</color>
+    <color name="color_header_divider">#22000000</color>
+    <color name="nav_drawer_selected_background">#E4E4E4</color>
+    <color name="color_short_book_title_color">#00ade1</color>
+    <color name="color_cardview_background">#f9f9f9</color>
+    <color name="color_short_book_isbn_color">#535353</color>
+    <color name="color_short_book_subtitle_color">#868686</color>
+    <color name="color_short_book_description_color">#2d2d2d</color>
+</resources>

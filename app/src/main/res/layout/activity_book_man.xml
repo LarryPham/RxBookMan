@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".BookManActivity">
+    <com.capsule.apps.rxbookman.widgets.ScrimInsetsRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:insetForeground="#4000">
+        <include android:id="@+id/main_toolbar"
+            layout="@layout/layout_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"/>
+        <com.capsule.apps.rxbookman.widgets.ScrimInsetsFrameLayout
+            android:id="@+id/main_content"
+            android:layout_below="@id/main_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </com.capsule.apps.rxbookman.widgets.ScrimInsetsRelativeLayout>
+    <android.support.design.widget.NavigationView
+        android:id="@+id/main_navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/color_white"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/layout_navigation_header"
+        app:itemBackground="@drawable/nav_drawer_item_background"
+        app:itemTextColor="@color/nav_drawer_item_text_color"
+        app:menu="@menu/menu_drawer"/>
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/menu_nav_items"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_drawer_explorer"
+            android:checked="false"
+            android:icon="@drawable/ic_home"
+            android:title="@string/navdrawer_home_books"/>
+
+        <item
+            android:id="@+id/nav_drawer_recent_books"
+            android:checked="false"
+            android:icon="@drawable/ic_recent"
+            android:title="@string/navdrawer_recent_books"/>
+        <item
+            android:id="@+id/nav_drawer_downloads_books"
+            android:checked="true"
+            android:icon="@drawable/ic_archive"
+            android:title="@string/navdrawer_downloads_books"/>
+
+        <item
+            android:id="@+id/nav_drawer_favourite_books"
+            android:checked="false"
+            android:icon="@drawable/ic_favourite"
+            android:title="@string/navdrawer_favourite_books"/>
+    </group>
+    <group
+        android:id="@+id/menu_nav_systems"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_drawer_settings"
+            android:checked="false"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/navdrawer_settings"/>
+        <item
+            android:id="@+id/nav_drawer_abouts"
+            android:checked="false"
+            android:icon="@drawable/ic_info"
+            android:title="@string/navdrawer_about"/>
+    </group>
+</menu>
